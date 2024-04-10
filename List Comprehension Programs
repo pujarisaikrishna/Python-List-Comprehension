@@ -1,0 +1,26 @@
+#list comprehension & converting string to integer
+
+my_list1 =  ['10','20','30','40','50']
+
+my_list = [int(x) for x in my_list1]
+
+my_list2 = [x**2 for x in my_list]
+
+print(my_list2)
+
+
+#list comprehension & converting integer to string
+
+my_list1 =  [10, 20, 30, 40 ,50]
+
+my_list = [str(x) for x in my_list1]
+
+print(my_list)
+
+#list comprehension & converting string to float
+
+my_list1 = ['10.5', '5.8', '3.9', '8.6']
+
+my_list = [float(x) for x in my_list1]
+
+print(my_list)
